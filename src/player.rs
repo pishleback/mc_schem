@@ -4,7 +4,6 @@ use std::collections::{BTreeMap, HashMap};
 use std::fmt::{Debug, Formatter};
 use strum::FromRepr;
 
-#[allow(dead_code)]
 #[derive(Debug, Clone)]
 pub struct DimensionId(String);
 
